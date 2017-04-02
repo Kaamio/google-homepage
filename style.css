@@ -1,6 +1,4 @@
 .searchbar {
-
-		
 	width: 500px;
 	height: 30px;
 	margin-left: 450px;
@@ -28,7 +26,7 @@ ul {
 }
 
 .navbar ul {
-	margin-left: 1300px;
+	margin-left: 1250px;
 }
 
 li {
@@ -65,8 +63,46 @@ input {
 	border-radius: 4px;
 }
 
-.footer ul {
-	margin-left: 0px;
+.kokeile ul {
 	display: inline-block;
+	margin-left: 620px;
 
 }
+
+.kokeile ul li {
+border: 1px solid black;
+height:20px;
+width:120px;
+
+}
+
+.kokeile a {
+	
+	font-size: 12px;
+}
+
+
+.footer {
+	margin-top: 500px;
+	border-top:1px solid grey;
+	height:50px;
+
+}
+.footer ul {
+display: inline-block;
+margin-left:10px;
+
+
+}
+
+.footer ul a {
+font-size: 12;
+color: #908383;
+
+}
+#right {
+	margin-left: 800px
+}
+
+
+
