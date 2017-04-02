@@ -46,6 +46,7 @@ li a {
 
 .navbar li a {
 	color:black;
+	font-size: 12px;
 }
 
 #login {
@@ -65,22 +66,31 @@ input {
 
 .kokeile ul {
 	display: inline-block;
-	margin-left: 620px;
+	margin-left: 600px;
 
 }
 
 .kokeile ul li {
-border: 1px solid black;
-height:20px;
-width:120px;
-
+height:30px;
+width:140px;
+padding: 3px;
+margin-top: 35px;
 }
 
-.kokeile a {
+button {	
+	font-size: 13px;
+	color:grey;
+	border-style: none;
+	height:30px;
+	width:120px;
+	text-align: center;
 	
-	font-size: 12px;
 }
 
+button:hover {
+border:1px solid grey;
+color: black;
+}
 
 .footer {
 	margin-top: 500px;
