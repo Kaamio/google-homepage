@@ -4,10 +4,6 @@
 	margin-left: 450px;
 }	
 
-.logo {
-
-}
-
 .navbar {
 	height:150px;
 }
@@ -34,12 +30,12 @@ li {
 	height:15px;
 	width: 80px;
 	padding: 8px 6px;
+	text-align: center;
 
 
 }
 
 li a {
-	display: block;
 	text-align: center;
 	text-decoration: none;	
 }
@@ -49,11 +45,12 @@ li a {
 	font-size: 12px;
 }
 
-#login {
-	background-color: #008aff;
+a:hover {
+	text-decoration: underline;
 }
 
-#login a {
+#login button {
+	background-color: #008aff;
 	color: white;
 }
 
@@ -87,20 +84,26 @@ button {
 	
 }
 
-button:hover {
+.kokeile button:hover {
 border:1px solid grey;
 color: black;
 }
 
+.muut {
+	margin-left: 600px;
+}
+
 .footer {
-	margin-top: 500px;
-	border-top:1px solid grey;
-	height:50px;
+	margin-top: 370px;
+	border-top:1px solid #e2dada;
+	height:40px;
 
 }
 .footer ul {
 display: inline-block;
 margin-left:10px;
+margin-top:4px;
+margin-bottom: 4px;
 
 
 }
@@ -111,7 +114,9 @@ color: #908383;
 
 }
 #right {
-	margin-left: 800px
+	margin-left: 800px;
+	margin-top:4px;
+	margin-bottom: 4px;
 }
 
 
